@@ -26,4 +26,4 @@ token <- "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJEZXNhcnJvbGxvIiwib3ZyI
 # Hacer la solicitud GET con el token
 response <- GET(url, add_headers(Authorization = paste("Bearer", token)))
 
-print("hola") 
+print("hola mundo cruel") 
